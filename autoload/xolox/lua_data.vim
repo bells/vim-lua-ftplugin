@@ -196,6 +196,8 @@ let g:xolox#lua_data#library = [
       \ { 'word': 'table.unpack()', 'kind': 'f' },
       \ { 'word': 'ngx.ctx', 'kind': 'm' },
       \ { 'word': 'ngx.status', 'kind': 'm' },
+      \ { 'word': 'ngx.say', 'kind': 'f' },
+      \ { 'word': 'ngx.print', 'kind': 'f' },
       \ ]
 
 " Function signatures. {{{1
